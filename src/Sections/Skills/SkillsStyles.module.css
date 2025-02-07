@@ -26,7 +26,7 @@
 }
 
 hr{
-    width: 100px;
+    width: 300%;
     height: 1px;
     border: none;
     background-color: var(--text-color);
