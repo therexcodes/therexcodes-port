@@ -13,6 +13,7 @@ import iniconLight from '../../assets/inicon-light.svg'
 import iniconDark from '../../assets/inicon-dark.svg'
 import RESUME from '../../assets/ULOKO-EMMANUEL-RESUME.pdf'
 import { useTheme } from '../../common/themeContext'
+import { TypingAnimation } from '../../common/TypingAnimation'
 
 
 function Hero() {
@@ -58,7 +59,9 @@ function Hero() {
                     <a href="https://www.linkedin.com/in/emmanuel-uloko-825423343/" target="_blank">
                     <img src={inicon} alt="Linkedin Icon" /></a>
                 </span>
+                
                 <p className={styles.description}>
+                    
                 Passionate about building efficient backend systems with Django to drive modern web applications.
                 </p>
                 <a href={RESUME} download>
