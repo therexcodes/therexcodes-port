@@ -1,0 +1,14 @@
+.Cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+
+    p{
+        max-width: 45ch;
+        text-align: justify;
+    }
+
+}

@@ -43,9 +43,7 @@ function Hero() {
             </div>
             <div className={styles.info}>
                 <h1>
-                    Uloko
-                    <br/> 
-                    Emmanuel
+                   THE REX CODES
                 </h1>
                 <h2>
                     Software Engineer | Backend
