@@ -16,7 +16,7 @@ function Contact() {
                     <label htmlFor="email" hidden>
                         Email
                     </label>
-                    <input type="email" id='email' name='email' placeholder='Email' required />
+                    <input type="name" id="name" placeholder='Email' required/>
                     
                 </div>
 

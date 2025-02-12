@@ -40,13 +40,12 @@ input, textarea{
 input[type='submit']{
     background-color: var(--btn-color);
         color: var(--btn-text-color);
-        border: none;
+        border: 2px solid rgba(29, 28, 28, 0.699);
         border-radius: 20px;
-        width: 126px;
+        width: 150px;
         height: 50px;
         font-size: 20px;
         font-weight: bold;
-        box-shadow: 0 4px 4px rgb(26, 25, 25);
         transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
         margin: auto;
 }
@@ -69,12 +68,20 @@ input[type='submit']:active{
     form{
         gap: 40px;
     }
+
+    input[type='submit']{
+        width: 200px;
+    }
 }
 
 @media (width >=1400px){
     textarea, input:not([type='submit']) {
         width: 800px;
 
+    }
+
+    input[type='submit']{
+        width: 250px;
     }
 
 

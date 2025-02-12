@@ -1,3 +1,4 @@
+import Navbar from './Sections/NavBar/Navbar'
 import Hero from './Sections/Hero/Hero'
 import './App.css'
 import Projects from './Sections/Projects/Projects'
@@ -10,6 +11,7 @@ function App(){
 
 
   return(<>
+      <Navbar/>
       <Hero/>
       <Projects/>
       <AboutMe/>

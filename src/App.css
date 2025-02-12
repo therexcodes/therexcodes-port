@@ -1,3 +1,11 @@
+html{
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
 :root {
   --background-color: #ffffff;
   --btn-color: #23a133;
@@ -6,6 +14,7 @@
   --text-color: #222;
   --form-text-color: #555;
   --footer-text-color: #888;
+  --Navbar-color: #23a133;
 }
 
 [data-theme='dark'] {
@@ -16,6 +25,7 @@
   --text-color: #ffffff;
   --form-text-color: #ffffff;
   --footer-text-color: #bbb;
+  --Navbar-color: #2e2929;
 }
 
 body {
@@ -53,7 +63,7 @@ h2, h3{
 }
 
 h1{
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Caveat', sans-serif;
   font-size: 32px;
 }
 p{
