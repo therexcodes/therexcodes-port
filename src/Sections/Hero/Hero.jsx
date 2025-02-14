@@ -13,7 +13,6 @@ import iniconLight from '../../assets/inicon-light.svg'
 import iniconDark from '../../assets/inicon-dark.svg'
 import RESUME from '../../assets/ULOKO-EMMANUEL-RESUME.pdf'
 import { useTheme } from '../../common/themeContext'
-import { TypingAnimation } from '../../common/TypingAnimation'
 
 
 function Hero() {
@@ -44,7 +43,7 @@ function Hero() {
             </div>
             <div className={styles.info}>
                 <h1>
-                   THE REX CODES
+                    THE REX CODES
                 </h1>
                 <h2>
                     Software Engineer | Backend

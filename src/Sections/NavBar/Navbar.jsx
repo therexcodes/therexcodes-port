@@ -23,7 +23,7 @@
             {/* Full Navbar for Large Screens */}
             <ul className={styles.navlinks}>
             <li><a href="#hero">Home</a></li>
-            <li><a href="#">Serivces</a></li>
+            <li><a href="#services">Serivces</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#about-me">About</a></li>
             <li><a href="#skills">Skills</a> </li>
@@ -43,7 +43,7 @@
         <div className={`${styles.mobilemenu} ${isOpen ? styles.slidein : styles.slideout}`}>
             <ul>
             <li><a href="#hero" onClick={() => setIsOpen(false)}>Home</a></li>
-            <li><a href="#" onClick={() => setIsOpen(false)}>Services</a></li>
+            <li><a href="#services" onClick={() => setIsOpen(false)}>Services</a></li>
             <li><a href="#projects" onClick={() => setIsOpen(false)}>Projects</a></li>
             <li><a href="#about-me" onClick={() => setIsOpen(false)}>About</a></li>
             <li><a href="#skills" onClick={() => setIsOpen(false)}>Skills</a></li>

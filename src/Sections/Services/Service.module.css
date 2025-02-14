@@ -1,0 +1,30 @@
+.Cont{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    height: 50dvh;
+
+    span{
+        display: flex;
+        border: 2.5px solid;
+        border-color: #888;
+        border-radius: 10px;
+        width: 230px;
+        padding: 8px;
+        text-align: left;
+        align-items: center;
+        gap: 5px;
+        
+    }
+
+}
+
+.serviceList{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: left;
+    gap: 10px;
+    justify-content: center;
+    background-color: var(--background-color);
+}

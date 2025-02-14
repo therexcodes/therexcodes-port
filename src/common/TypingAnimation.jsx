@@ -1,24 +1,24 @@
 import { motion } from "framer-motion";
 import React from "react";
 
-const letter = {
-  hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0 },
-};
+    const letter = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0 },
+    };
 
-const container = {
-  hidden: { opacity: 1 },
-  visible: {
-    opacity: 1,
-    transition: { staggerChildren: 0.05 },
-  },
-};
+    const container = {
+    hidden: { opacity: 1 },
+    visible: {
+        opacity: 1,
+        transition: { staggerChildren: 0.05 },
+    },
+    };
 
-
+    // Function to split JSX elements and animate text
     export const renderAnimatedText = (node) => {
     if (typeof node === "string") {
         return node.split("").map((char, index) => (
-        <motion.span key={index} variants={letter} >
+        <motion.span key={index} variants={letter}>
             {char}
         </motion.span>
         ));
@@ -30,18 +30,18 @@ const container = {
         });
     }
     return node;
-};
+    };
 
-export const TypingAnimation = ({ children }) => {
+    // Usage inside a component
+    export const TypingAnimation = ({ children }) => {
     return (
         <motion.div
         variants={container}
         initial="hidden"
         animate="visible"
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: false }}
+        className="text-lg font-semibold"
         >
         {React.Children.map(children, renderAnimatedText)}
         </motion.div>
     );
-    };
+};
