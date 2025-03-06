@@ -11,7 +11,7 @@ import instaiconLight from '../../assets/instaicon-light.svg'
 import instaiconDark from '../../assets/instaicon-dark.svg'
 import iniconLight from '../../assets/inicon-light.svg'
 import iniconDark from '../../assets/inicon-dark.svg'
-import RESUME from '../../assets/ULOKO-EMMANUEL-RESUME.pdf'
+import RESUME from '../../assets/rexcodes-cv.pdf'
 import { useTheme } from '../../common/themeContext'
 
 
